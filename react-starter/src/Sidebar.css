@@ -1,0 +1,51 @@
+.container-sidebar{
+    background-color: none;
+    width: 15%;
+    
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: white;
+    overflow-y: hidden;
+    padding: 15px;
+}
+
+.sidebar_categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;   
+}
+
+
+.sidebar-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-right: auto;
+    width: 100%;
+   
+
+}
+
+.icons{
+    margin-right: 15px;
+}
+
+
+
+.sidebar:hover  {  
+     overflow-y: scroll;  
+     overflow-x: hidden;
+}
+
+.sidebar-item:hover{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
